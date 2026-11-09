@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="pt-br">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Produto</title>
+
+<head>
+  <script src="script.js" defer></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Loja do Zezão</h1>
+    <a href="cliente.html">Clientes</a> |
+    <a href="produto.html">Produtos</a> | <a href="vendas.html">Vendas</a> |
+    <a href="relatorios.html">Relatorios</a>
+  </header>
+  <main>
+    <div class="container">
+      <p><label>Produto:</label><input id="produto" /></p>
+      <p><label>Quantidade:</label><input id="quantidade" /></p>
+      <p><label>Preço:</label><input id="preco" /></p>
+      <div class="containerBotoes">
+        <p><button onclick="cadastrar_produto()">Cadastrar</button></p>
+        <p><button onclick="comprar_produto()">Comprar</button></p>
+      </div>
+    </div>
+  </main>
+</body>
+
+</html>

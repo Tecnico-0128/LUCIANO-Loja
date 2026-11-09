@@ -1,0 +1,103 @@
+* {
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #e6e6e6;
+}
+
+header {
+    background-color: rgb(55, 119, 202);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin-bottom: 20px;
+    background-color: rgb(55, 119, 202);
+}
+
+.containerBotoes{
+    display: flex;
+    gap: 10px;
+}
+
+.container {
+    width: 500px;
+    background-color: #fff;
+    margin: 30px auto;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.container button{
+    background-color: rgb(0, 155, 0);
+    color: white;
+    padding: 8px;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+.container button :hover{
+    background-color: rgb(0, 78, 0);
+}
+
+input {
+    width: 95%;
+    padding: 8px;
+    margin-block: 5px;
+    border: 1px solid gray;
+    border-radius: 8px;
+}
+
+a {
+    background-color: rgb(0, 175, 219);
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: rgb(0, 133, 167);
+}
+
+#relatorios {
+    margin: 30px auto;
+    padding: 20px;
+}
+
+#relatorios button {
+    padding: 10px 15px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+#resultadoRelatorio {
+    margin-top: 25px;
+    overflow-x: auto;
+}
+
+#resultadoRelatorio table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#resultadoRelatorio th,
+#resultadoRelatorio td {
+    padding: 12px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+#resultadoRelatorio th {
+    background-color: #d0d7ff;
+}

@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="pt-br">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cliente</title>
+
+<head>
+  <script src="script.js" defer></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Loja do Zezão</h1>
+    <a href="cliente.html">Clientes</a> |
+    <a href="produto.html">Produtos</a> |
+    <a href="vendas.html">Vendas</a> |
+    <a href="relatorios.html">Relatorios</a>
+  </header>
+  <div class="container">
+    <main>
+      <p><label>Nome:<input id="nome" /></label></p>
+      <p><label>CPF:<input id="cpf" /></label></p>
+      <div class="containerBotoes">
+        <p><button onclick="cadastrar_cliente()">Cadastrar</button></p>
+        <p><button onclick="editar_cliente()">Editar</button></p>
+        <p><button onclick="deletar_cliente()">Deletar</button></p>
+      </div>
+  </div>
+  </main>
+</body>
+
+</html>

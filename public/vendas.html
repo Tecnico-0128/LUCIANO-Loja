@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="pt-br">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vendas</title>
+
+<head>
+  <script src="script.js" defer></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Loja do Zezão</h1>
+    <a href="cliente.html">Clientes</a> |
+    <a href="produto.html">Produtos</a> | <a href="vendas.html">Vendas</a> |
+    <a href="relatorios.html">Relatorios</a>
+  </header>
+  <main>
+    <div class="container">
+      <select id="clienteVenda">
+        <option value="">Selecione um cliente</option>
+      </select>
+      <select id="produtoVenda">
+        <option value="">Selecione um produto</option>
+      </select>
+      <input type="number" id="quantidadeVenda">
+      <button onclick="cadastrar_venda()">
+        Realizar venda
+      </button>
+    </div>
+  </main>
+</body>
+
+</html>

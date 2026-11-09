@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="pt-br">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Relatorios</title>
+
+<head>
+  <script src="script.js" defer></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Loja do Zezão</h1>
+    <a href="cliente.html">Clientes</a> |
+    <a href="produto.html">Produtos</a> | <a href="vendas.html">Vendas</a> |
+    <a href="relatorios.html">Relatorios</a>
+  </header>
+  <main>
+    <div class="container">
+      <section id="relatorios">
+        <h2>Relatórios</h2>
+        <button onclick="relatorio_clientes()">
+          Relatório de Clientes
+        </button>
+        <button onclick="relatorio_produtos()">
+          Relatório de Produtos
+        </button>
+        <button onclick="relatorio_vendas()">
+          Relatório de Vendas
+        </button>
+        <div id="resultadoRelatorio"></div>
+      </section>
+    </div>
+  </main>
+</body>
+
+</html>
