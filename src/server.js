@@ -6,7 +6,7 @@ const app = express();
 const PORT = 3000;
 
 const sequelize = require('../config/database');
-const { Cliente, Produto, Venda } = require('../models');
+const { Cliente, Produto, Venda } = require('../models/');
 
 
 app.get('/health', (req, res) => {
