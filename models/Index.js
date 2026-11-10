@@ -14,7 +14,6 @@ Venda.belongsTo(Cliente, {
 Produto.hasMany(Venda, {
     foreignKey: 'produtoId'
 });
-
 Venda.belongsTo(Produto, {
     foreignKey: 'produtoId'
 });
